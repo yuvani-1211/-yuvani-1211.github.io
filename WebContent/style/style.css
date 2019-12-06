@@ -1,1 +1,95 @@
 /* Add styles for truYum application here */
+body {
+	height:99%;
+	width:99%;
+}
+header {	 
+	background-color: #37538a;
+    margin: 5px;
+	height: 75px;
+}
+div {
+	height: 550px;
+	margin: 35px;
+	margin-left: 40px;
+	padding: 70px;
+}
+footer {
+	background-color: gray;
+	height: 75px;
+}
+.tru {
+	color: white;
+	margin: 15px;
+	font-size: 25px;
+}
+img {
+	height: 60px;
+	width: 50px;
+}
+.ref {
+	color: white;
+	float: right;
+	margin-top: 20px;
+	margin-right: 60px;
+}
+table {
+	width: 750px;
+}
+.left {
+	text-align: left;
+	width: 200px;	
+}
+.right {
+	text-align: right;
+	width: 100px;	
+}
+.center {
+	text-align: center;
+}
+.ref1 {
+	color: white;
+	float: right;
+	margin-top: 20px;
+	margin-right: 70px;
+}
+h3 {
+	color: green;
+}
+.freedeli {
+	text-align: left;
+	width: 100px;
+}
+.h3 {
+	color: gray;
+}
+.name {
+	width: 750px;
+}
+.button {
+	color: white;
+	background-color: #37538a;
+	height: 45px;
+	width: 120px;
+}
+.black {
+	color: black
+}
+.blue {
+	color: blue;
+}
+.size {
+	width: 700px;
+}
+.delete {
+	width: 50px;
+	text-align: center;
+}
+.middle {
+	color: green;
+	text-align: center;
+}
+footer{
+	padding: 10px;
+}
+

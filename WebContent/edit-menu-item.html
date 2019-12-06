@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Edit Menu Item
+		</title>
+		<link rel="stylesheet" type="text/css" href="./style/style.css">
+	</head>
+	<body>
+		<header> 
+			<span class="tru">truYum</span>
+			<img src="./images/truyum-logo-light.png ">
+			<a href="menu-item-list-admin.html" class="ref"> Menu </a>
+		
+		</header>
+		<div>
+			<form name="myform" onsubmit="return validform()" action="edit-menu-item-status.html" method="post">
+			
+				<h1>Menu Items </h1><br><br>
+				<table>
+					<tr>
+						<td>
+							Name
+						</td>
+					</tr>
+					<tr>
+						<td  colspan="4">
+							<input type="text" name="name" id="name" class="size" placeholder="Sandwich">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Price (Rs.)
+						</td>
+						<td>
+							Active
+						</td>
+						<td>
+							Date of Launch
+						</td>
+						<td>
+							Category
+						</td>
+					</tr>
+					<tr>
+						
+							
+						
+							
+					</tr>
+					<tr>
+						<td>
+							<input type="text" name="price" id="price" class="right" placeholder="97">
+						</td>
+						<td>
+							<input type="radio" id="yes" name="rd" checked><label for="yes">Yes</label>
+                            <input type="radio" id="no" name="rd" ><label for="no">No</label>
+						</td>
+						<td>
+							<input type="text" name="date" id="date" placeholder="27/04/2022">
+						</td>	
+						
+						<td>
+							<select type="text" value="" name="maincourse"> 
+								<option>Starters</option> 
+								<option selected>Main Course</option> 
+								<option>Dessert</option> 
+								<option>Drinks</option> 
+								</select>
+						</td>
+					</tr>
+					<tr colspan="2">
+						<td>
+							<input type="checkbox" name="check" id="check" checked>Free Delivery
+						</td>
+					</tr>
+					<tr colspan="2">
+						<td>
+							<input type="submit" value="Save" class="button" onclick="validform(document.myform.price)" />
+						</td>
+					</tr>
+					
+				</table>
+			</form>	
+		</div>
+		<footer>
+			<h3 class="black">Copyright &copy 2019</h3>
+		</footer>
+		<script src="./js/script.js"></script>
+	</body>
+</html>	
