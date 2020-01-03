@@ -63,7 +63,8 @@ public class MenuItemDaoCollectionImpl implements MenuItemDao {
 	}
 
 	@Override
-	public MenuItem getMenuItem(long menuItemId) {
+	public MenuItem getMenuItem(long menuItemId)
+	{
 		MenuItem menuItem = null;
 		for (MenuItem x : menuItemList) {
 			if (x.getId() == menuItemId) {

@@ -114,5 +114,18 @@ public class MenuItem {
 		return details;
 
 	}
-
+public String addCart()
+{
+	SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+	String details = String.format("%-20s Rs.%7.2f %-5s %-18s %-15s %-5s add to cart", name, price, active ? "Yes" : "No",
+			sdf.format(dateOfLaunch), category, freeDelivery ? "Yes" : "No");
+	return details;
+}
+public String deleteCart()
+{
+	SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+	String details = String.format("%-20s Rs.%7.2f %-5s %-18s %-15s %-5s deleteCart", name, price, active ? "Yes" : "No",
+			sdf.format(dateOfLaunch), category, freeDelivery ? "Yes" : "No");
+	return details;
+}
 }
