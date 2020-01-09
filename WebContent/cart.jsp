@@ -10,7 +10,8 @@
 <body>
 	<header> <span class="tru">truYum</span> 
 	<img src="./images/truyum-logo-light.png "> 
-	<a href="ShowCart" class="ref"> Cart </a> <a href="ShowMenuItemListCustomer" class="ref1">Menu</a>
+	<a href="ShowCart" class="ref"> Cart </a>
+	 <a href="ShowMenuItemListCustomer" class="ref1">Menu</a>
 	</header>
 	<div>
 
