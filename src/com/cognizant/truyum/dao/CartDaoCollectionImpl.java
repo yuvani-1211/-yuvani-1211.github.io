@@ -1,5 +1,6 @@
 package com.cognizant.truyum.dao;
 
+import java.sql.SQLException;
 import java.text.ParseException;
 import java.util.HashMap;
 import java.util.List;
@@ -20,7 +21,7 @@ public class CartDaoCollectionImpl implements CartDao {
 	}
 
 	@Override
-	public void addCartItem(long userId, long menuItemId) {
+	public void addCartItem(long userId, long menuItemId) throws SQLException {
 		// TODO Auto-generated method stub
 		try {
 			MenuItemDao menuItemDao = new MenuItemDaoCollectionImpl();

@@ -88,9 +88,8 @@ where ca.ct_us_id=1;
 -- adding the price value
 -- -------------------------------------------------------------------
 
-select 
-sum(me_price)
-from menu_item me join cart ca on(me.me_id = ca.ct_id) 
+select sum(me_price)
+from menu_item me join cart ca on(me.me_id = ca.pr_id) 
 where ca.ct_us_id=1;
 
 -- -------------------------------------------------------------------

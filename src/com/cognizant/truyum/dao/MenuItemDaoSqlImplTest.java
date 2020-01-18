@@ -7,7 +7,7 @@ import java.util.List;
 import com.cognizant.truyum.model.MenuItem;
 import com.cognizant.truyum.util.DateUtil;
 
-public class MenuItemDaoCollectionImplTest {
+public class MenuItemDaoSqlImplTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -22,6 +22,7 @@ public class MenuItemDaoCollectionImplTest {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+
 	}
 
 	public static void testGetMenuItemListAdmin() throws ParseException, SQLException {
